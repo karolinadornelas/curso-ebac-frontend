@@ -1,0 +1,27 @@
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+header{
+    color: #FFE047;
+    background-color: #272622;
+    width: 350px;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+#navbar{
+    text-align: center;
+    background-color:#FFE047;
+    width: 350px;
+}
+
+#navbar a{
+    color: #272622;
+}
+
+#conteudo{
+    display: flex;
+}
