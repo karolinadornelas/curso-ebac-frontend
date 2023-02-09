@@ -1,0 +1,102 @@
+body{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    line-height: 1.6em;
+    font-size: 12px;
+    text-align: left;
+    overflow-x: hidden;
+    background: rgb(247, 194, 130);
+}
+
+#container{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: calc(225px + 80px + 400px + (25px * 2) + ((400px + (25px * 2)) * 0.025) + 80px + 120px);
+}
+
+#universo{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 225px;
+}
+
+.florzinha{
+    display: flex;
+}
+
+.rosa{
+    width: 100px;
+}
+
+.catito{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.cha{
+    align-self: center;
+    -webkit-align-self: center;
+}
+
+.chazinho{
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.welcome{
+    margin-top: 20px;
+    width: inherit;
+    background-color: #fad6ab;
+    box-shadow: 6px 6px #f6e3e3
+}
+
+.welcometo{
+    border: 1px solid #eab499;
+    padding: 5px 5px 0px 5px;
+}
+
+.welcomeby{
+    border: 1px solid #eab499;
+    padding: 5px;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+.wellbox{
+    float: left;
+    margin-top: 2.5px;
+    width: calc(100% - 50px);
+    font-family: silkscreen;
+    font-size: 9px;
+    color: #915c1c;
+    line-height: 1em;
+    max-height: 1em;
+    overflow: hidden;
+}
+
+.bw{
+    position: absolute;
+    white-space: nowrap;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+.nuvem{
+    display: block;
+    margin-bottom: calc(10px + 2px);
+}
+
+.it{
+    box-shadow: 5px 6px #f6e3e3;
+}
+
